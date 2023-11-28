@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !import;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.main-color {
+  color: #000524;
+}
+.main-bgcolor {
+  background-color: #000524 !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+
+.bg-navbar {
+  background-color: #000524;
+}
+
+.navbar-brand img {
+  height: 3.5rem;
+}
+#home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.7)),
+    url("../img/hero.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  overflow-x: hidden !important;
+  widht: 100%;
+}
+#aboutus {
+  overflow-x: hidden !important;
+}
+
+.font-paci {
+  font-family: "Pacifico", cursive;
+}
+
+.head hr {
+  width: 5%;
+  border: 2.5px solid #000524;
+  color: #000524;
+  background-color: #000524;
+  margin: auto;
+}
+
+.head h1 {
+  letter-spacing: 3px;
+}
+
+#event {
+  height: 110vh;
+  background-color: #000524;
+}
+
+#event .card img {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+  max-height: 14rem;
+}
+
+.foto-sec-1 img {
+  height: fit-content;
+}
+
+.foto-sec-2 img {
+  height: fit-content;
+}
+.list-group li:nth-child(1) {
+  border-top: 0 none;
+}
+
+#narasumber ul {
+  margin-left: -90px;
+  display: flex;
+}
+
+#narasumber ul li {
+  list-style: none;
+}
+
+#narasumber ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 0.5s;
+}
+
+#narasumber ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+#narasumber ul li a .fab {
+  widht: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 0.5s;
+}
+
+#narasumber ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+#narasumber ul li:nth-child(2) a:hover .fab {
+  color: #00aced;
+}
+
+#narasumber ul li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}
+
+#narasumber ul li:nth-child(4) a:hover .fab {
+  color: #007bb6;
+}
+
+#narasumber ul li:nth-child(5) a:hover .fab {
+  color: #e4405f;
+}
+
+#sponsor img {
+  filter: grayscale(100%);
+}
+
+#sponsor img:hover {
+  filter: grayscale(0);
+  transition: 1s;
+}
+
+.footer {
+  height: auto;
+
+  widht: 100%;
+  color: white;
+  background-color: #000524 !important;
+}
+
+.footer img {
+  height: 3rem;
+}
+
+.footer h5 {
+  color: #0c21a6;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.logo-brand-text {
+  color: #0c21a6;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.detail-semaxar img {
+  height: 30rem;
+
+  border-radius: 4px;
+}
+
+.detail-semaxar h5 {
+  color: #0c21a6;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.vanue img {
+  height: 20rem;
+}
+.down-arrow {
+  position: absolute;
+  top: calc(100vh);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 0px;
+  border: 0px solid;
+  border-radius: 0px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+  padding: 10px;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  color: #000524;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: 0.4s;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.card {
+  width: 22rem;
+}

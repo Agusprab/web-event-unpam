@@ -1,0 +1,80 @@
+@media (max-width: 500px) {
+  .navbar-brand img {
+    height: 2.5rem;
+  }
+  #home {
+    height: 70vh;
+  }
+  .down-arrow {
+    top: calc(65vh);
+    left: calc(50%);
+  }
+
+  .card {
+    width: 90%;
+    margin-left: 20px;
+  }
+  #aboutus img {
+    width: 95%;
+  }
+  .img-2-aboutus {
+    margin-left: 1.3rem !important;
+  }
+  #event {
+    height: auto;
+  }
+  #narasumber ul {
+    margin-left: -50px;
+  }
+
+  #narasumber ul li a {
+    margin: 0 8px;
+    width: 50px;
+    height: 50px;
+  }
+  #narasumber ul li a .fab {
+    font-size: 16px;
+  }
+  .logo-brand-text {
+    font-size: 15px;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  #home {
+    height: 70vh;
+  }
+  .down-arrow {
+    top: calc(65vh);
+    left: calc(50%);
+  }
+  .card {
+    margin-left: 20px;
+  }
+  #event {
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #event {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #sponsor img {
+    height: 4rem;
+  }
+  .indihome-sponsor {
+    height: 3rem !important;
+  }
+    }
+
+@media (min-width: 1200px) and (max-width: 16000px) {
+  #sponsor img {
+    height: 4rem;
+  }
+  .indihome-sponsor {
+    height: 3rem !important;
+  }
+}
